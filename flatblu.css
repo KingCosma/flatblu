@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap');
+
+.btn1 {
+    background-color: #0C6DFD;
+    color: #C7DAFF;
+    border: 0px solid black;
+    padding: 4px 8px 4px 8px;
+    cursor: pointer;
+    font-family:  'Noto Sans', sans-serif;
+    border-radius: 2px;
+    margin: 8px 4px 8px 4px;
+}
+.btn1:hover {
+    color: white;
+    box-shadow: 0 2px 4px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+  
+.btn1:disabled:hover,
+.btn1[disabled]:hover {
+    cursor: not-allowed;
+    color: #C7DAFF;
+}
+
+
+.btn2 {
+    background-color: inherit;
+    color: #7c8088;
+    border: 0px solid black;
+    padding: 4px 8px 4px 8px;
+    cursor: pointer;
+    font-family:  'Noto Sans', sans-serif;
+    border-radius: 2px;
+    margin: 8px 4px 8px 4px;
+}
+.btn2:hover {
+    background-color: #e6e8eb;
+    box-shadow: 0 2px 4px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+  
+.btn2:disabled:hover,
+.btn2[disabled]:hover {
+    cursor: not-allowed;
+    color: #e6e8eb;
+    box-shadow: 0 2px 4px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.btn2:disabled,
+.btn2[disabled] {
+    color: #e6e8eb;
+    background-color: inherit;
+}
+
+.btn3 {
+    background-color: #0C6DFD;
+    color: #C7DAFF;
+    border: 0px solid black;
+    padding: 4px 8px 4px 8px;
+    cursor: pointer;
+    font-family:  'Noto Sans', sans-serif;
+    border-radius: 16px;
+    margin: 8px 4px 8px 4px;
+}
+.btn3:hover {
+    color: white;
+    box-shadow: 0 2px 4px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+  
+.btn3:disabled:hover,
+.btn1[disabled]:hover {
+    cursor: not-allowed;
+    color: #C7DAFF;
+}
+
+
+.txtin1 {
+    font-family: 'Noto Sans', sans-serif;
+    border-bottom: 1px solid #7c8088;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    padding: 3px 8px 3px 8px;
+    margin: 8px 4px 8px 4px;
+    border-radius: 2px;
+}
+.txtin1:focus {
+    outline: none;
+    box-shadow: 0 2px 4px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.txtin1:hover {
+    box-shadow: 0 2px 4px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.txtin1::placeholder {
+    font-family:  'Noto Sans', sans-serif;
+}
+
+.txtin2 {
+    font-family: 'Noto Sans', sans-serif;
+    border-bottom: 1px solid #131313;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    background-color: rgba(0,0,0,0.05);
+    padding: 3px 8px 3px 8px;
+    margin: 8px 4px 8px 4px;
+    border-radius: 2px;
+}
+.txtin2:focus {
+    outline: none;
+    box-shadow: 0 2px 4px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.txtin2:hover {
+    box-shadow: 0 2px 4px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.txtin2::placeholder {
+    font-family:  'Noto Sans', sans-serif;
+}
+
+.txtin3 {
+    border: 1px solid #131313;
+    border-radius: 2px;
+    padding: 4px 8px 4px 8px;
+    margin: 8px 4px 8px 4px;
+}
+
+.txtin3:focus {
+    outline: none;
+    box-shadow: 0 2px 4px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.txtin3:hover {
+    box-shadow: 0 2px 4px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.txtin3::placeholder {
+    font-family:  'Noto Sans', sans-serif;
+}
+
+
+.filein {
+    font-family:  'Noto Sans', sans-serif;
+}
+.filein::file-selector-button {
+    background-color: #0C6DFD;
+    color: #C7DAFF;
+    border: 0px solid black;
+    padding: 4px 8px 4px 8px;
+    cursor: pointer;
+    font-family:  'Noto Sans', sans-serif;
+    border-radius: 2px;
+    margin: 8px 4px 8px 4px;
+}
+
+.filein::file-selector-button:hover {
+    color: white;
+    box-shadow: 0 2px 4px 0 #00000033, 0 6px 20px 0 #00000030;
+    cursor: pointer;
+}
+  
+.filein::file-selector-button:disabled:hover,
+.filein::file-selector-button[disabled]:hover {
+    cursor: not-allowed;
+    color: #C7DAFF;
+}
+
+.filein:hover {
+    cursor: pointer;
+}
+
+.radbtn {
+    padding: 4px 8px 4px 8px;
+    margin: 8px 4px 8px 4px;
+}
+
+.radbtn:hover {
+    cursor: pointer;
+    padding: 4px 8px 4px 8px;
+    margin: 8px 4px 8px 4px;
+    box-shadow: 0 2px 4px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.radbtn:checked {
+    background-color: #0C6DFD;
+}
+
+
+.chkbx {
+    padding: 4px 8px 4px 8px;
+    margin: 8px 4px 8px 4px;
+}
+
+.chkbx:hover {
+    cursor: pointer;
+    padding: 4px 8px 4px 8px;
+    margin: 8px 4px 8px 4px;
+    box-shadow: 0 2px 4px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+
+.std {
+    font-family:  'Noto Sans', sans-serif;
+}
+
+.rng {
+    padding: 4px 0px 4px 0px;
+    margin: 8px 4px 8px 4px;
+}
+
+.rng {
+    appearance: none;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #7c8088;
+    opacity: 0.7;
+    height: 0.5px;
+  }
+  
+.rng::-webkit-slider-thumb {
+    width: 15px;
+    height: 15px;
+    appearance: none;
+    border-radius: 10px;
+    background-color: #0c38fd;
+    overflow: visible;
+    cursor: pointer;
+}
+
+.rng:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.img {
+    border-radius: 2px;
+    padding: 4px 8px 4px 8px;
+    margin: 8px 4px 8px 4px;
+}
+
+.colr {
+	appearance: none;
+	border: none;
+	width: 32px;
+	height: 34px;
+    background-color: inherit;
+}
+.colr::-webkit-color-swatch-wrapper {
+	background-color: inherit;
+}
+.colr::-webkit-color-swatch {
+	border: none;
+    border-radius: 50%;
+}
+
+.colr::-webkit-color-swatch:hover {
+	border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.code {
+    background-color: #00000030;
+    border-radius: 2px;
+    padding: 4px 8px 4px 8px;
+    margin: 8px 4px 8px 4px;
+    font-family:  'Noto Sans', sans-serif;
+}
+
+.hdr {
+    color: white;
+    background-color: #0C6DFD;
+    padding: 4px 8px 4px 8px;
+    font-size: xxx-large;
+    font-family:  'Noto Sans', sans-serif;
+}
+
+.stdbox {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 4px 8px 4px 8px;
+    margin: 8px 4px 8px 4px;
+    font-family:  'Noto Sans', sans-serif;
+}
+
+.stdtb {
+    border: 1px solid black;
+    border-radius: 2px;
+    border-collapse: collapse;
+    padding: 4px 8px 4px 8px;
+    margin: 8px 4px 8px 4px;
+}
+
+.stdtb th, td {
+    padding: 4px 8px 4px 8px;
+    margin: 8px 4px 8px 4px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.grydiv {
+    background-color: #0000000c;
+    padding: 4px 8px 4px 8px;
+    margin: 8px 4px 8px 4px;
+}
