@@ -305,3 +305,20 @@
     padding: 4px 8px 4px 8px;
     margin: 8px 4px 8px 4px;
 }
+
+.anc:link {
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+  
+.anc:visited {
+    text-decoration: none;
+}
+  
+.anc:hover {
+    text-decoration: underline;
+}
+  
+.anc:active {
+    text-decoration: underline;
+}
