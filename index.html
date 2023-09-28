@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        td {
+            text-align: center;
+        }
+        .left {
+            text-align: left;
+        }
+        .c {
+            margin: 0 auto;
+        }
+    </style>
+    <link rel="stylesheet" href="https://flatblu.vercel.app/flatblu.css">
+    <title>Flatblu</title>
+</head>
+<body>
+    <header class="hdr">FlatBlu <a href="https://github.com/KingCosma/flatblu" style="float: right;"><button class="btn3">Github</button></a>
+    </header>
+        <p class="std">
+            Flatblu is a collection of custom styled elements written in vanilla CSS that is meant to be simple yet beautiful.
+            This can be used without any installation just by linking a CDN.
+            <br>
+            copy the below code and pase it inside the head tag to link to use flatblue in your site.
+            <br>
+            <div id="CDN" style="width: 50%; text-align: center;" class="code">&ltlink rel="stylesheet" href="https://flatblu.vercel.app/flatblu.css"&gt</div>
+            <button class="btn1" onclick="copy()">copy</button>
+            <br><br>
+            Here is an example with the code.
+        </p>
+        <div style="width: 30%; text-align: center;" class="stdbox"><button class="btn1">BUTTON</button></div>
+        <div style="width: 30%; text-align: center;" class="code">&ltbutton class="btn1"&gtBUTTON&lt/button&gt</div>
+        <br>
+        <p class="std">
+            Here are all the custom elements listed in a table.
+        </p>
+
+        <table class="stdtb std">
+            <tr><th>Element</th><th>Preview</th><th>Class</th></tr>
+            <tr><td>any</td><td class="std"> hello world!</td><td>std</td></tr>
+            <tr><td>header</td><td class="std">The above header</td><td>hdr</td></tr>
+            <tr><td>button</td><td class="std"><button class="btn1">BUTTON</button></td><td>btn1</td></tr>
+            <tr><td>button</td><td class="std"><button class="btn2">BUTTON</button></td><td>btn2</td></tr>
+            <tr><td>button</td><td class="std"><button class="btn3">BUTTON</button></td><td>btn3</td></tr>
+            <tr><td>input(text)</td><td><input class="txtin1" placeholder="Text..."></td><td>txtin1</td></tr>
+            <tr><td>input(text)</td><td><input class="txtin2" placeholder="Text..."></td><td>txtin2</td></tr>
+            <tr><td>input(text)</td><td><input class="txtin3" placeholder="Text..."></td><td>txtin3</td></tr>
+            <tr><td>input(file)</td><td><input type="file" class="filein"></td><td>filein</td></tr>
+            <tr><td>input(radio)</td><td><input name="x" type="radio" class="radbtn"><input name="x" type="radio" class="radbtn"><input name="x" type="radio" class="radbtn"><input name="x" type="radio" class="radbtn"></td><td>radbtn</td></tr>
+            <tr><td>input(checkbox)</td><td><input type="checkbox" class="chkbx"><input type="checkbox" class="chkbx"><input type="checkbox" class="chkbx"><input type="checkbox" class="chkbx"></td><td>chkbx</td></tr>
+            <tr><td>input(range)</td><td><input type="range" class="rng"></td><td>rng</td></tr>
+            <tr><td>input(color)</td><td><input type="color" class="colr" value="#0C6DFD"></td><td>colr</td></tr>
+            <tr><td>a</td><td><a class="anc" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">YouTube</a></td><td>anc</td></tr>
+            <tr><td>div(code)</td><td class="left c"><div class="code" style="width: 50%; align-self: center;">
+                x = "hello world"<br>
+                print(x)<br>
+            </div></td><td>code</td></tr>
+
+            <tr><td>div(grey)</td><td class="left c"><div class="grydiv" style="width: 50%; align-self: center;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </div></td><td>grydiv</td></tr>
+            
+            <tr><td>table</td><td>this table is an example</td><td>stdtb</td></tr>
+        </table>
+
+        <script>
+function copy() {
+    navigator.clipboard.writeText("<link rel=\"stylesheet\" href=\"https://flatblu.vercel.app/flatblu.css\">")
+  }
+        </script>
+</body>
+</html>
